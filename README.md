@@ -15,5 +15,5 @@ $ npm start
 ```
 
 ## 截图
-
+![](public/demo.gif)
 
