@@ -63,7 +63,7 @@ class Index extends React.Component {
     
     // console.log(e.target);
     let {file} = this.state;
-    let url = 'http://localhost:3453/uploadImg'
+    let url = 'http://localhost:3453/api/uploadImg'
     
     let config = {
       headers: {'Content-Type': 'multipart/form-data'}

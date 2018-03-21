@@ -15,5 +15,5 @@ $ npm start
 ```
 
 ## 截图
-![](public/demo.gif)
+![](http://p5xjqxkm5.bkt.clouddn.com/imageRecognition.gif)
 

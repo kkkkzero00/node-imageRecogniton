@@ -7,8 +7,8 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 //解析req.body
 var bodyParser = require('body-parser');
-var uploadImg = require('./routes/uploadImg');
 
+var apiRouter = require('./api');
 // global.nodeServer = require('./dataServer/node_ocr_baidu');
 
 
@@ -45,10 +45,9 @@ app.all("*", function(req, res, next) {
   next();
 });
 
+//装载路由
+app.use('/api', apiRouter)
 
-
-
-app.use('/uploadImg', uploadImg);
 
 // app.use('/users', users);
 // app.use('/search',routes);
